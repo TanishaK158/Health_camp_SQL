@@ -1,20 +1,18 @@
 # Health_camp_SQL
-Data Analysis on the dataset of a health checkup camp 
+Data Analysis on the dataset of a health checkup camp. I have used query function like SELECT, NTILE,DENSERANK() , RANK(), CTE, GROUP BY , ORDER BY ,ROW_NUMBER , JOIN  , CUBE, pivot table and dynamic querying , error handling 
 
-BASIC LEVEL QUERIES
-what is the count of the pateint in the age group of 0-20,20-40,40-60 and 60 above? .
-Write a query to count the number of records in the Health_Camp_Detail table.
-Write a query to group patients by gender and count the number of patients in each group from the Patient_Profile table.
-Write a query to select all patients and order them by age in descending order from the Patient_Profile table.
+BASIC, INTERMEDIATE AND ADVANCED LEVEL QUERIES
+--what is the total number of people enrolled in the health camp? 
+-- what is the number of people attended the workshop evryday?
+-- what is the average number of people attending the workshop daily?
+--what is the count of the pateint in the age group of 0-20,20-40,40-60 and 60 above? .
+-- Rank patients on there health score out of 1 and categories them based on that
+--Write a query to create a CTE that counts the number of patients for each camp and then use it to select the Camp_Name and Total_Patients.
+--what is the  total donation given and donation given by each patient ID
+-- HOW MANY  PEOPLE AND HOW MUCH DONATION EVRY CAMP HS RECIEVED?
 
 
-INTERMEDIATE LEVEL QUERIES
-Write a query to retrieve the Patient_ID, Patient_Name, and Camp_Name for all patients, including those who have not attended any health camp.
-Write a query to select the Patient_ID, Patient_Name, and the name of the camp they attended using a subquery in the SELECT clause.
-Write a query to create a CTE that counts the number of patients for each camp and then use it to select the Camp_Name and Total_Patients.
-Write a query to assign a rank to each patient based on their age in descending order using the RANK() window function.
 
-ADVANCED LEVEL QUERIES
 Write a query to retrieve the Patient_ID, Patient_Name, and Camp_Name for all patients and camps, including those with no matches
 Write a query to count the number of patients in each camp, including subtotals for each camp and gender using ROLLUP.
 Write a stored procedure to retrieve all patients who attended a specific camp based on the Camp_ID paramete
